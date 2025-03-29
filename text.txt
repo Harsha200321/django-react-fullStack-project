@@ -1,0 +1,15 @@
+JWT token - Json Web Token will act as the permissions or authentication everytime we access a website.
+            REQUEST 
+FRONTEND------------------BACKEND
+CREDS ------------------> CREDS VALIDATED
+      <------------------ACCESS, REQUEST TOKENS
+Access token expires in a short time, refresh token expires in a long time. 
+User can use refresh token to get a new access token.
+
+ORM - Object Relational Mapping 
+
+User credentials:
+bob 
+bob@123
+
+create frontend: npm create vite@latest frontend -- --template react
